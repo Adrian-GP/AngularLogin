@@ -1,19 +1,21 @@
-<div>
-
-<md-content md-theme="docs-dark" layout-gt-sm="row" layout-padding>
-    <div>
-      <md-input-container>
-        <label>Number 1</label>
-        <input type="number" ng-model="first">
-      </md-input-container>
-
-      <md-input-container>
-        <label>Email</label>
-        <input type="number" ng-model="second">
-      </md-input-container>
-    </div>
-    <md-button class="md-raised md-primary" ng-click="updateValue()">Sum</md-button>
-    <h1>{{sum}}</h1>
-  </md-content>
-	
+<div style="display: flex;">
+	<div style="margin:auto;">
+		<md-card layout="column" layout-align="space-around center" layout-padding>
+	    	<div>
+	      		<md-input-container>
+	        		<label>Email</label>
+	        		<input type="text" ng-model="first">
+	      		</md-input-container>
+			</div>
+			<div>
+	      		<md-input-container class="md-primary">
+	        		<label>Password</label>
+	        		<input type="password" ng-model="second">
+	      	</md-input-container>
+	    	</div>
+	    	<md-button class="md-primary" ng-click="Login()">Login</md-button>
+	    	<span class="md-accent">Don't have an account yet?</span>
+	    	<md-button class="md-primary" ng-click="NewAccount()">Sign up</md-button>
+	  	</md-card>
+	</div>	
 </div>
