@@ -1,0 +1,26 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "This is my angular login tet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianP94/AngularLogin.git"
+  },
+  "author": "Adrian Peña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianP94/AngularLogin/issues"
+  },
+  "homepage": "https://github.com/AdrianP94/AngularLogin#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.5",
+    "angular-aria": "^1.6.5",
+    "angular-material": "^1.1.4",
+    "angular-ui-router": "^1.0.0-rc.1"
+  }
+}
